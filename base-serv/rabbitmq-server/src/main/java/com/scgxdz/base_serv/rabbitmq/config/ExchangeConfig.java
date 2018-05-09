@@ -21,7 +21,7 @@ public class ExchangeConfig {
      */
     @Bean
     TopicExchange contractTopicExchangeDurable(RabbitAdmin rabbitAdmin) {
-        TopicExchange contractTopicExchange = new TopicExchange(RabbitmqExchange.EXCHANGE);
+        TopicExchange contractTopicExchange = new TopicExchange(RabbitmqExchange.EXCHANGE_TOPIC);
         rabbitAdmin.declareExchange(contractTopicExchange);
         return contractTopicExchange;
     }

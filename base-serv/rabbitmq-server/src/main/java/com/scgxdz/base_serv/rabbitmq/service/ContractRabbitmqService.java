@@ -18,22 +18,12 @@ public class ContractRabbitmqService implements RabbitTemplate.ConfirmCallback, 
     private RabbitMessagingTemplate rabbitMessagingTemplate;
 
     public void sendContractRabbitmqTopic(final ContractRabbitmq ContractRabbitmq) {
-        this.rabbitMessagingTemplate.convertAndSend(RabbitmqExchange.CONTRACT_TOPIC, RabbitmqQueue.CONTRACE_SELF, ContractRabbitmq);
+        this.rabbitMessagingTemplate.convertAndSend(RabbitmqExchange.EXCHANGE_TOPIC, RabbitmqQueue.QUEUE, ContractRabbitmq);
     }
 
     public void sendContractRabbitmqDirect(final ContractRabbitmq ContractRabbitmq) {
-        this.rabbitMessagingTemplate.convertAndSend(RabbitmqExchange.CONTRACT_DIRECT, RabbitmqQueue.CONTRACE_SELF, ContractRabbitmq);
+        this.rabbitMessagingTemplate.convertAndSend(RabbitmqExchange.EXCHANGE_DIRECT, RabbitmqQueue.QUEUE, ContractRabbitmq);
     }
-
-    public void sendTenantRabbitmqTopic(final TenantRabbitmq tenantRabbitmq){
-        this.rabbitMessagingTemplate.convertAndSend(RabbitmqExchange.CONTRACT_TOPIC, RabbitmqQueue.CONTRACE_TENANT, tenantRabbitmq);
-    }
-
-
-    public void sendTenantRabbitmqDirect(final TenantRabbitmq tenantRabbitmq){
-        this.rabbitMessagingTemplate.convertAndSend(RabbitmqExchange.CONTRACT_DIRECT, RabbitmqQueue.CONTRACE_TENANT, tenantRabbitmq);
-    }
-
     /**
      * 回调函数不起作用，暂时没搞清楚
      */

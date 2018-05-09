@@ -111,7 +111,7 @@ public class RabbitMQConfig {
      */
     @Bean
     public DirectExchange defaultExchange() {
-        return new DirectExchange(RabbitmqExchange.EXCHANGE);
+        return new DirectExchange(RabbitmqExchange.EXCHANGE_DIRECT);
     }
 
     /**

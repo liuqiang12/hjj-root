@@ -10,6 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>base-serv</artifactId>
+    <name>base-serv</name>
+
     <packaging>pom</packaging>
     <modules>
         <!--服务注册、发现-->
@@ -22,8 +24,11 @@
         <module>zuul-server</module>
         <!-- 链路跟踪 -->
         <module>turbine-server</module>
+        <!-- 链路跟踪服务 -->
+        <module>sleuth-server</module>
         <!-- 服务监控中心，监控所有服务模块 -->
         <module>admin-server</module>
+        <!-- 消息服务 -->
         <module>rabbitmq-server</module>
     </modules>
 </project>

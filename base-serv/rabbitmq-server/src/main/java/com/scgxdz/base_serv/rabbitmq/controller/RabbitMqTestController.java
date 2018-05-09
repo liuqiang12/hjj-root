@@ -43,20 +43,4 @@ public class RabbitMqTestController{
         contract.setTestStrList(strList);
         contractRabbitmqService.sendContractRabbitmqTopic(contract);
     }
-
-    @RequestMapping(value = "tenant/direct", method = RequestMethod.GET)
-    public void tenantDirect(String content) {
-        TenantRabbitmq tenant = new TenantRabbitmq();
-        tenant.setId(12L);
-        tenant.setName("liuhan");
-        contractRabbitmqService.sendTenantRabbitmqDirect(tenant);
-    }
-
-    @RequestMapping(value = "tenant/topic", method = RequestMethod.GET)
-    public void tenantTopic(String content) {
-        TenantRabbitmq tenant = new TenantRabbitmq();
-        tenant.setId(12L);
-        tenant.setName("liuhan");
-        contractRabbitmqService.sendTenantRabbitmqTopic(tenant);
-    }
 }

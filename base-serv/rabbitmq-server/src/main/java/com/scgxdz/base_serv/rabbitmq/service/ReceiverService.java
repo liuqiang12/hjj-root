@@ -10,13 +10,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class ReceiverService {
 
-    @RabbitListener(queues = RabbitmqQueue.CONTRACE_SELF)
+    @RabbitListener(queues = RabbitmqQueue.QUEUE)
     public void receiveContractQueue(ContractRabbitmq contract) {
-        System.out.println("Received contract<" + new Gson().toJson(contract) + ">");
-    }
-
-    @RabbitListener(queues = RabbitmqQueue.CONTRACE_TENANT)
-    public void receiveTenantQueue(TenantRabbitmq tenant) {
-        System.out.println("Received Bar<" + new Gson().toJson(tenant) + ">");
+        System.out.println("Received QUEUE<" + new Gson().toJson(contract) + ">");
     }
 }
