@@ -1,0 +1,40 @@
+###########################################################服务端口######################################################
+server:
+  tomcat  :
+    uri-encoding : utf-8
+  port : 9003
+#######################################################spring.application.name##########################################
+spring :
+  application :
+    name : eureka-server
+  boot  :
+    admin :
+      url : http://localhost:9002
+#######################################################应用信息##########################################
+info:
+  app:
+    name: "eureka-server"
+    description: "注册中心"
+    version: "1.0-SNAPSHOT"
+    spring-boot-version: "1.0-SNAPSHOT"
+###########################################################注册中心######################################################
+eureka  :
+  server  :
+    #设为false，关闭自我保护
+    enable-self-preservation  : false
+  client  :
+    registerWithEureka  : false #是否将eureka自身作为应用注册到eureka注册中心
+    fetchRegistry  : false  #为true时，可以启动，但报异常：Cannot execute request on any known server
+    serviceUrl  :
+      defaultZone : http://localhost:${server.port}/eureka/
+###########################################################management.security.enabled#################################
+management  :
+  security  :
+    enabled : false #关闭刷新安全认证
+###########################################################log######################################################
+logging :
+  config : classpath:logback.xml
+  level :
+    tk :
+      mybatis :
+        TRACE

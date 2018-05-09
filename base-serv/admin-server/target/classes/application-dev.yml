@@ -1,0 +1,47 @@
+server:
+  tomcat  :
+    uri-encoding : utf-8
+  port : 9002
+###########################################################thymeleaf######################################################
+spring :
+  application :
+    name : SBA_Server
+  boot  :
+    admin :
+      url : http://localhost:9002
+  output  :
+    ansi  :
+      enabled : ALWAYS
+  mvc :
+    view  :
+      prefix  : /templates/
+      suffix  : .ftl
+  freemarker :
+    cache : false
+    request-context-attribute : request
+  thympersonRatioWeekeleaf :
+    mode  : HTML5
+    encoding :  UTF-8
+    content-type :  text/html
+    #开发时关闭缓存,不然没法看到实时页面
+    cache : false
+  jackson :
+    serialization :
+      indent_output : true
+info:
+  app:
+    name: "admin-server"
+    description: "服务监控"
+    version: "1.0-SNAPSHOT"
+    spring-boot-version: "1.0-SNAPSHOT"
+###########################################################endpoints######################################################
+endpoints :
+  health  :
+    sensitive : false
+###########################################################log######################################################
+logging :
+  config : classpath:logback.xml
+  level :
+    tk :
+      mybatis :
+        TRACE

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
+        <module name="conf-server" />
+        <module name="eureka-register-service" />
+        <module name="eureka-server" />
+        <module name="hjj-assure-controller" />
+        <module name="hjj-assure-mapper" />
+        <module name="hjj-webapp-ui" />
+        <module name="hystrix-dashboard" />
+        <module name="mana-data" />
+        <module name="rabbitmq-server" />
+        <module name="turbine-server" />
+        <module name="zuul-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="admin-server" target="1.8" />
+      <module name="base-serv" target="1.8" />
+      <module name="commom-microservice" target="1.8" />
+      <module name="common-base-controller" target="1.8" />
+      <module name="common-base-model" target="1.8" />
+      <module name="common-login" target="1.8" />
+      <module name="common-mvc" target="1.8" />
+      <module name="common-security" target="1.8" />
+      <module name="common-utils" target="1.8" />
+      <module name="conf-server" target="1.8" />
+      <module name="eureka-register-service" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="hjj-app-assure" target="1.8" />
+      <module name="hjj-app-ui" target="1.8" />
+      <module name="hjj-assure" target="1.8" />
+      <module name="hjj-assure-controller" target="1.8" />
+      <module name="hjj-assure-mapper" target="1.8" />
+      <module name="hjj-assure-microservice" target="1.8" />
+      <module name="hjj-assure-model" target="1.8" />
+      <module name="hjj-common" target="1.8" />
+      <module name="hjj-equipment" target="1.8" />
+      <module name="hjj-pi-webapp" target="1.5" />
+      <module name="hjj-repair" target="1.8" />
+      <module name="hjj-root" target="1.5" />
+      <module name="hjj-root-cloud" target="1.8" />
+      <module name="hjj-synthesize" target="1.8" />
+      <module name="hjj-task" target="1.8" />
+      <module name="hjj-webapp-ui" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="mana-data" target="1.8" />
+      <module name="rabbitmq-server" target="1.8" />
+      <module name="sleuth-server" target="1.8" />
+      <module name="turbine-server" target="1.8" />
+      <module name="zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <!-- 四川观想电子 -->
+    <groupId>com.scgxdz</groupId>
+    <artifactId>hjj-root-cloud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>hjj-root Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+
+    <modules>
+        <!-- 基础服务 -->
+        <module>base-serv</module>
+        <!-- 火箭军可视化展示平台UI -->
+        <module>hjj-webapp-ui</module>
+        <!-- 保障态势微服务 -->
+        <module>hjj-assure</module>
+        <!-- 任务态势微服务 -->
+        <module>hjj-task</module>
+        <!-- 维修态势微服务 -->
+        <module>hjj-repair</module>
+        <!-- 装备态势微服务 -->
+        <module>hjj-equipment</module>
+        <!-- 综合态势微服务 -->
+        <module>hjj-synthesize</module>
+        <!-- 服务注册中心 -->
+        <module>eureka-register-service</module>
+
+    </modules>
+    <properties>
+        <fastjson_version>1.2.44</fastjson_version>
+        <servlet_version>3.1.0</servlet_version>
+        <mybatis_version>3.4.5</mybatis_version>
+        <mybatis_spring.version>1.3.1</mybatis_spring.version>
+        <mysql-connector-java.version>5.1.34</mysql-connector-java.version>
+        <druid_version>1.0.9</druid_version>
+        <spring_version>4.2.5.RELEASE</spring_version>
+        <commons_beanutils>1.9.2</commons_beanutils>
+        <commons_lang>2.6</commons_lang>
+        <log4j_version>1.2.17</log4j_version>
+        <xstream_version>1.4.6</xstream_version>
+        <dom4j_version>1.6.1</dom4j_version>
+        <taglibs_version>1.1.2</taglibs_version>
+        <jstl_version>1.2</jstl_version>
+        <java.version>1.8</java.version>
+    </properties>
+    <!--<distributionManagement>
+        <repository>
+            <id>scgxdz-snapshots</id>
+            <name>scgxdz-snapshots</name>
+            <url>http://218.6.169.98:12081/repository/scgxdz-snapshots/</url>
+        </repository>
+    </distributionManagement>-->
+
+</project>

@@ -1,0 +1,8 @@
+spring  :
+   rabbitmq :
+    addresses : 192.168.0.114:5672
+    username  : admin
+    password  : admin
+    publisher-confirms:  true #支持发布确认
+    publisher-returns: true #支持发布返回
+    virtual-host  : /

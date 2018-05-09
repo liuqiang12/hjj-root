@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hjj-pi-webapp:war">
+    <output-path>$PROJECT_DIR$/hjj-pi-webapp/target</output-path>
+    <root id="archive" name="hjj-pi-webapp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hjj-pi-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
