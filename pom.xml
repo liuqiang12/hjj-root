@@ -11,6 +11,7 @@
         <relativePath/>
     </parent>
 
+
     <!-- 四川观想电子 -->
     <groupId>com.scgxdz</groupId>
     <artifactId>hjj-root-cloud</artifactId>

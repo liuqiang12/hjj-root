@@ -1,0 +1,60 @@
+server:
+  port: 9001
+###########################################################spring.boot.admin.url######################################################
+spring:
+  application:
+    name: sleuth_server
+  boot  :
+      admin :
+        url : http://localhost:9002
+###########################################################链路信息保存数据库中mysql config######################################################
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.0.112:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: root
+      password: 123456
+###########################################################sleuth######################################################
+  sleuth:
+    sampler:
+      percentage: 1.0
+    enabled: false
+  ##########################################################spring.rabbitmq##########################################################
+  rabbitmq :
+    addresses : 192.168.0.114:5672
+    username  : admin
+    password  : admin
+    publisher-confirms  : true
+    virtual-host  : /
+###########################################################注册中心######################################################
+eureka  :
+  server  :
+    #设为false，关闭自我保护
+    enable-self-preservation  : false
+  client  :
+    registerWithEureka  : false #是否将eureka自身作为应用注册到eureka注册中心
+    fetchRegistry  : false  #为true时，可以启动，但报异常：Cannot execute request on any known server
+    serviceUrl  :
+      defaultZone : http://localhost:9003/eureka/
+
+###########################################################zipkin.storage.type######################################################
+zipkin:
+  storage:
+    type: mysql
+
+###########################################################management.security.enabled=false########################################
+management :
+  security  :
+    enabled : false
+###########################################################log######################################################
+logging :
+  config : classpath:logback.xml
+  level :
+    tk :
+      mybatis :
+        TRACE
+info:
+  app:
+    name: "@project.name@"
+    description: "@project.description@"
+    version: "@project.version@"
+    spring-boot-version: "@project.parent.version@"
