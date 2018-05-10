@@ -27,15 +27,15 @@
         <!-- 火箭军可视化展示平台UI -->
         <module>hjj-webapp-ui</module>
         <!-- 保障态势微服务 -->
-        <module>hjj-assure</module>
+        <module>hjj-assure-serv</module>
         <!-- 任务态势微服务 -->
-        <module>hjj-task</module>
+        <module>hjj-task-serv</module>
         <!-- 维修态势微服务 -->
-        <module>hjj-repair</module>
+        <module>hjj-repair-serv</module>
         <!-- 装备态势微服务 -->
-        <module>hjj-equipment</module>
+        <module>hjj-equipment-serv</module>
         <!-- 综合态势微服务 -->
-        <module>hjj-synthesize</module>
+        <module>hjj-synthesize-serv</module>
         <!-- 服务注册中心 -->
         <module>eureka-register-service</module>
 

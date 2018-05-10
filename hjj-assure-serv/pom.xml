@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>《《《---------保障态势---------》》》</description>
-    <artifactId>hjj-assure</artifactId>
-    <name>hjj-assure</name>
+    <artifactId>hjj-assure-serv</artifactId>
+    <name>hjj-assure-serv</name>
     <url>http://maven.apache.org</url>
     <modules>
         <module>hjj-assure-controller</module>

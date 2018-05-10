@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <description>《《《---------综合态势---------》》》</description>
-    <artifactId>hjj-synthesize</artifactId>
-    <name>hjj-synthesize</name>
+    <description>《《《---------维修保障态势---------》》》</description>
+    <artifactId>hjj-repair-serv</artifactId>
+    <name>hjj-repair-serv</name>
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <properties>

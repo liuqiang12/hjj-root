@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <description>《《《---------装备态势---------》》》</description>
-    <artifactId>hjj-equipment</artifactId>
-    <name>hjj-equipment</name>
+    <description>《《《---------任务态势---------》》》</description>
+    <artifactId>hjj-task-serv</artifactId>
+    <name>hjj-task-serv</name>
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <properties>
