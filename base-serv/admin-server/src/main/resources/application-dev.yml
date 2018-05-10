@@ -5,7 +5,7 @@ server  :
 ###########################################################thymeleaf######################################################
 spring :
   application :
-    name : SBA_Server
+    name : sba_server
   boot  :
     admin :
       url : http://localhost:9002
