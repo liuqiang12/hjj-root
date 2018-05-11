@@ -24,21 +24,7 @@
     <modules>
         <!-- 基础服务 -->
         <module>base-serv</module>
-        <!-- 火箭军可视化展示平台UI -->
-        <module>hjj-webapp-ui</module>
-        <!-- 保障态势微服务 -->
-        <module>hjj-assure-serv</module>
-        <!-- 任务态势微服务 -->
-        <module>hjj-task-serv</module>
-        <!-- 维修态势微服务 -->
-        <module>hjj-repair-serv</module>
-        <!-- 装备态势微服务 -->
-        <module>hjj-equipment-serv</module>
-        <!-- 综合态势微服务 -->
-        <module>hjj-synthesize-serv</module>
-        <!-- 服务注册中心 -->
-        <module>eureka-register-service</module>
-
+        <module>micro-cloud-serv</module>
     </modules>
     <properties>
         <fastjson_version>1.2.44</fastjson_version>

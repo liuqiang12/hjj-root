@@ -32,28 +32,28 @@ management :
   security  :
     enabled : false
 ###########################################################zuul######################################################
-zuul  :
-  routes  :
-    #保障态势
-    hjj_assure_server :
-      path  : /hjj_assure_serv/**
-      serviceId : HJJ_ASSURE_SERVER
-     #任务态势
-    hjj_task_server :
-     path  : /hjj_task_server/**
-     serviceId : HJJ_TASK_SERV
-    #维修保障
-     hjj_repair_server :
-       path  : /hjj_repair_serv/**
-       serviceId : HJJ_REPAIR_SERV
-    #装备态势
-     hjj_equipment_server :
-       path  : /hjj_equipment_serv/**
-       serviceId : HJJ_EQUIPMENT_SERV
-    #综合态势
-     hjj_synthesize_server :
-       path  : /hjj_synthesize_serv/**
-       serviceId : HJJ_SYNTHESIZE_SERV
+#zuul  :
+#  routes  :
+#    #保障态势
+#    hjj_assure_server :
+#      path  : /hjj_assure_serv/**
+#      serviceId : HJJ_ASSURE_SERVER
+#     #任务态势
+#    hjj_task_server :
+#     path  : /hjj_task_server/**
+#     serviceId : HJJ_TASK_SERV
+#    #维修保障
+#     hjj_repair_server :
+#       path  : /hjj_repair_serv/**
+#       serviceId : HJJ_REPAIR_SERV
+#    #装备态势
+#     hjj_equipment_server :
+#       path  : /hjj_equipment_serv/**
+#       serviceId : HJJ_EQUIPMENT_SERV
+#    #综合态势
+#     hjj_synthesize_server :
+#       path  : /hjj_synthesize_serv/**
+#       serviceId : HJJ_SYNTHESIZE_SERV
 ###########################################################log######################################################
 logging :
   config : classpath:logback.xml
