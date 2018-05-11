@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="983be6fb-409c-48cd-8ce3-528ae94de7d5" name="egnore" comment="egnore">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hjj-root.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/admin-server/admin-server.iml" afterPath="$PROJECT_DIR$/base-serv/admin-server/admin-server.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/admin-server/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/base-serv/admin-server/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/admin-server/src/main/resources/application-prd.yml" afterPath="$PROJECT_DIR$/base-serv/admin-server/src/main/resources/application-prd.yml" />
       <change beforePath="$PROJECT_DIR$/base-serv/admin-server/target/classes/com/scgxdz/base_serv/admin/AdminServerApplicaton.class" afterPath="$PROJECT_DIR$/base-serv/admin-server/target/classes/com/scgxdz/base_serv/admin/AdminServerApplicaton.class" />
-      <change beforePath="$PROJECT_DIR$/base-serv/base-serv.iml" afterPath="$PROJECT_DIR$/base-serv/base-serv.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/conf-server/conf-server.iml" afterPath="$PROJECT_DIR$/base-serv/conf-server/conf-server.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/eureka-server/eureka-server.iml" afterPath="$PROJECT_DIR$/base-serv/eureka-server/eureka-server.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/hystrix-dashboard/hystrix-dashboard.iml" afterPath="$PROJECT_DIR$/base-serv/hystrix-dashboard/hystrix-dashboard.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/pom.xml" afterPath="$PROJECT_DIR$/base-serv/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/rabbitmq-server/rabbitmq-server.iml" afterPath="$PROJECT_DIR$/base-serv/rabbitmq-server/rabbitmq-server.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/sleuth-server/sleuth-server.iml" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/sleuth-server.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/application-prd.yml" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/application-prd.yml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/turbine-server/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/base-serv/turbine-server/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/turbine-server/src/main/resources/application-prd.yml" afterPath="$PROJECT_DIR$/base-serv/turbine-server/src/main/resources/application-prd.yml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/turbine-server/turbine-server.iml" afterPath="$PROJECT_DIR$/base-serv/turbine-server/turbine-server.iml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/zuul-server/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/zuul-server/src/main/resources/application-prd.yml" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/resources/application-prd.yml" />
-      <change beforePath="$PROJECT_DIR$/base-serv/zuul-server/zuul-server.iml" afterPath="$PROJECT_DIR$/base-serv/zuul-server/zuul-server.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/base-serv/target/" />
     <ignored path="$PROJECT_DIR$/base-serv/zuul-server/target/" />
@@ -633,7 +614,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526001176651</updated>
-      <workItem from="1526001178163" duration="1920000" />
+      <workItem from="1526001178163" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="egnore">
       <changelist id="983be6fb-409c-48cd-8ce3-528ae94de7d5" name="egnore" comment="egnore" />
@@ -657,12 +638,19 @@
       <option name="project" value="LOCAL" />
       <updated>1526002210258</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="egnore">
+      <created>1526003113192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526003113192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1920000" />
+    <option name="totallyTimeSpent" value="1935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
