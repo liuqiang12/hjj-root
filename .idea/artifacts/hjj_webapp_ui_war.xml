@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="hjj-webapp-ui:war">
-    <output-path>$PROJECT_DIR$/hjj-webapp-ui/target</output-path>
-    <root id="archive" name="hjj-webapp-ui.war">
-      <element id="artifact" artifact-name="hjj-webapp-ui:war exploded" />
-    </root>
-  </artifact>
-</component>

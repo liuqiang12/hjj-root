@@ -5,20 +5,17 @@
       <module fileurl="file://$PROJECT_DIR$/base-serv/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/base-serv/admin-server/admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-serv/base-serv.iml" filepath="$PROJECT_DIR$/base-serv/base-serv.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-serv/conf-server/conf-server.iml" filepath="$PROJECT_DIR$/base-serv/conf-server/conf-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-register-service/eureka-register-service.iml" filepath="$PROJECT_DIR$/eureka-register-service/eureka-register-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-serv/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/base-serv/eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-assure/hjj-assure.iml" filepath="$PROJECT_DIR$/hjj-assure/hjj-assure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-assure/hjj-assure-controller/hjj-assure-controller.iml" filepath="$PROJECT_DIR$/hjj-assure/hjj-assure-controller/hjj-assure-controller.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-assure/hjj-assure-mapper/hjj-assure-mapper.iml" filepath="$PROJECT_DIR$/hjj-assure/hjj-assure-mapper/hjj-assure-mapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-assure/hjj-assure-model/hjj-assure-model.iml" filepath="$PROJECT_DIR$/hjj-assure/hjj-assure-model/hjj-assure-model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-equipment/hjj-equipment.iml" filepath="$PROJECT_DIR$/hjj-equipment/hjj-equipment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-repair/hjj-repair.iml" filepath="$PROJECT_DIR$/hjj-repair/hjj-repair.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-root-cloud.iml" filepath="$PROJECT_DIR$/hjj-root-cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-synthesize/hjj-synthesize.iml" filepath="$PROJECT_DIR$/hjj-synthesize/hjj-synthesize.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-task/hjj-task.iml" filepath="$PROJECT_DIR$/hjj-task/hjj-task.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hjj-webapp-ui/hjj-webapp-ui.iml" filepath="$PROJECT_DIR$/hjj-webapp-ui/hjj-webapp-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-cloud-serv/hjj-assure-serv/hjj-assure-serv.iml" filepath="$PROJECT_DIR$/micro-cloud-serv/hjj-assure-serv/hjj-assure-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-cloud-serv/hjj-equipment-serv/hjj-equipment-serv.iml" filepath="$PROJECT_DIR$/micro-cloud-serv/hjj-equipment-serv/hjj-equipment-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-cloud-serv/hjj-repair-serv/hjj-repair-serv.iml" filepath="$PROJECT_DIR$/micro-cloud-serv/hjj-repair-serv/hjj-repair-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hjj-root.iml" filepath="$PROJECT_DIR$/.idea/hjj-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-cloud-serv/hjj-synthesize-serv/hjj-synthesize-serv.iml" filepath="$PROJECT_DIR$/micro-cloud-serv/hjj-synthesize-serv/hjj-synthesize-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-cloud-serv/hjj-task-serv/hjj-task-serv.iml" filepath="$PROJECT_DIR$/micro-cloud-serv/hjj-task-serv/hjj-task-serv.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-serv/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/base-serv/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-cloud-serv/micro-cloud-serv.iml" filepath="$PROJECT_DIR$/micro-cloud-serv/micro-cloud-serv.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-serv/rabbitmq-server/rabbitmq-server.iml" filepath="$PROJECT_DIR$/base-serv/rabbitmq-server/rabbitmq-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-serv/sleuth-server/sleuth-server.iml" filepath="$PROJECT_DIR$/base-serv/sleuth-server/sleuth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-serv/turbine-server/turbine-server.iml" filepath="$PROJECT_DIR$/base-serv/turbine-server/turbine-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-serv/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/base-serv/zuul-server/zuul-server.iml" />
     </modules>
