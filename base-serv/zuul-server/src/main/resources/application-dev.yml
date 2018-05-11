@@ -6,7 +6,7 @@ server  :
 ###########################################################spring.boot.admin.url######################################################
 spring:
   application:
-    name: zuul_server
+    name: zuul-server
   boot  :
       admin :
         url : http://localhost:9002

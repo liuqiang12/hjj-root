@@ -1,11 +1,11 @@
-server:
+server  :
   tomcat  :
     uri-encoding : utf-8
   port : 9002
 ###########################################################thymeleaf######################################################
 spring :
   application :
-    name : SBA_Server
+    name : sba-server
   boot  :
     admin :
       url : http://localhost:9002
